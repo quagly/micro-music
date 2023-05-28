@@ -49,9 +49,13 @@ def generateNote(freq):
         buf.popleft()
         # plot of flag set
         if gShowPlot:
-            if i % 1000 == 0:
-                axline.set_ydata(buf)
-                plt.draw()
+            raise ValueError(f'graphical plotting not implmented but gShowPlot={gShowPlot}')
+            # if i % 1000 == 0:
+            # this fails as axline is not set
+            # I would need to learn matplotlib to debug
+            # maybe use audacity on the wav files in the meantime
+            # axline.set_ydata(buf)
+            # plt.draw()
 
     # samples to 16-bit
     # 16-bit is compact disk standard
