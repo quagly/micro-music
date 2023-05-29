@@ -1,9 +1,14 @@
-# create frequencys with string like overtones
+# create sounds from sine waves 
 
-Not a module, but a [tutorial](https\://github.com/joetechem/frequency_overtones_python)
+the first part of this tutoral covers sounding sine waves
+[tutorial](https\://github.com/joetechem/frequency_overtones_python)
 
-hasn't been updated in 4 years as of 2023
 
-A three year old similar example is [here](https://github.com/the-inevitable/karplus-strong-algorithm)
+## TODO
+* plot waves
+* overtones
+
+
+
 
 
