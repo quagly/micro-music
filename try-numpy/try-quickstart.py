@@ -56,4 +56,40 @@ create_radians = np.linspace(0, 2 * np.pi, 100)
 get_sin = np.sin(create_radians)
 # print(f'sin of 100 points of the circle are: {get_sin}')
 
+# basic operations
+array_one = np.array([20, 30, 40, 50])
+print(f'array_one is: {array_one}')
+array_two = np.arange(4)
+print(f'array_two is: {array_two}')
+array_minus = array_one - array_two
+print(f'array one minus two is: {array_minus}')
+array_power = array_one ** 2
+print(f'array one squared is: {array_power}')
+array_calc = 10 * np.sin(array_one)
+print(f'array one 10*sin: {array_calc}')
+array_test = array_one < 35
+print(f'array one less than 35 test is: {array_test}')
+
+# stats
+print(f'sum of array_one is: {array_one.sum()}')
+print(f'min of array_one is: {array_one.min()}')
+print(f'max of array_one is: {array_one.max()}')
+
+# universal functions operate on every element of an array
+# may such functions.  I may want to use np.re, np.where
+print(f'sqrt of array_one is: {np.sqrt(array_one)}')
+print(f'e to power array_two is: {np.exp(array_two)}')
+print(f'array_one plus array_two is: {np.add(array_one, array_two)}')
+
+# one dimensional arrays act a lot like lists
+print(f'second element of array_one is: {array_one[1]}')
+print(f'second throuh forth elements of array_one are: {array_one[1:4]}')
+
+
+
+
+
+print
+
+
 
